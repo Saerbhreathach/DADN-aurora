@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Elven Baelnorn variant</name>
+		<description>Elven Baelnorn variant for the Dread Necromancer class</description>
+		<author url="https://www.dmsguild.com/product/173065/Dread-Necromancer">David Adams</author>
+		<update version="0.1">
+			<file name="dread-necromancer-baelnorn-variant.xml" url="https://raw.githubusercontent.com/Saerbhreathach/DADN-aurora/main/dread-necromancer/dread-necromancer-baelnorn-variant.xml" />
+		</update>
+	</info>
+	
+	<element name="Elven Baelnorn" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_DREAD_NECROMANCER_ELVEN_BAELNORN">
+	<supports>ID_DMSG_DADN_CLASS_DREAD_NECROMANCER</supports>
+	<requirements>ID_RACE_ELF</requirements>
+	<prerequisite>Elf</prerequisite>
+		<description>
+			<p><em>Prerequisite: Elf</em></p>
+			<p>Very rarely in Elven tradition, a carefully selected individual of great importance to the continuation of the elven people is allowed to undergo a dark ritual that
+			sustains their life beyond the limits of death. The rituals used are, for all intents and purposes, no different than those that create a lich - the self-same magic
+			that stains the soul of every Dread Necromancer. There is an important difference however. The great arts of elven magic help keep the creeping darkness of this evil
+			in check. Few Baelnorns need ever worry about falling hopelessly into villainy.</p>
+			<p class="indent">It is for this reason that many Baelnorns also choose to ignore the debased and unspeakable callings typical of other Dread Necromancers. It is true
+			that a few tread the path of Corpsecrafter, raising the remains of elven warriors in the dispensation of their hallowed duties. Many more instead blend the magic of the
+			elven people with the power of shadow that blights their soul. These Nethermancers tap the places where the Weave casts shadows and create mighty spells from the raw
+			essence of shadow-stuff.</p>
+			<h5 class="caption">Elven Baelnorn</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Fell Power Uses/Day</td><td>Elven Arcana Spell Level</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Tainted Vitality, Charnel Touch</td><td>-</td><td>-</td></tr>
+				<tr><td> 2nd</td><td class="left">Fell Power (Elven Arcana, Profane Lifeleech)</td><td>3</td><td>1</td></tr>
+				<tr><td> 3rd</td><td class="left">Dread Calling/Nethermancy - Fell Power (Shadow Magic)</td><td>3</td><td>1</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>1</td></tr>
+				<tr><td> 5th</td><td class="left">Fell Power (Rebuke Undead)</td><td>4</td><td>2</td></tr>
+				<tr><td> 6th</td><td class="left">Dread Calling Feature/Fell Power (Shadow Magic)</td><td>5</td><td>2</td></tr>
+				<tr><td> 7th</td><td class="left">Sepulchral Husk</td><td>5</td><td>2</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>6</td><td>3</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td>6</td><td>3</td></tr>
+				<tr><td>10th</td><td class="left">Dread Calling Feature/Fell Power (Shadow Conjuration)</td><td>7</td><td>3</td></tr>
+				<tr><td>11th</td><td class="left">—</td><td>7</td><td>4</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>7</td><td>4</td></tr>
+				<tr><td>13th</td><td class="left">—</td><td>8</td><td>4</td></tr>
+				<tr><td>14th</td><td class="left">Arselu'Tel'Quess</td><td>8</td><td>4</td></tr>
+				<tr><td>15th</td><td class="left">—</td><td>8</td><td>5</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>9</td><td>5</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>9</td><td>5</td></tr>
+				<tr><td>18th</td><td class="left">Dread Calling Feature/—</td><td>9</td><td>5</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>10</td><td>6</td></tr>
+				<tr><td>20th</td><td class="left">Undead Apotheosis</td><td>10</td><td>6</td></tr>
+			</table>
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_TAINTED_VITALITY" />
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_CHARNEL_TOUCH" />
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER" />
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_ELVEN_ARCANA" />
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_PROFANE_LIFELEECH" />
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_DREAD_CALLING" />
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_ABILITYSCOREIMPROVEMENT_DREAD_NECROMANCER" />
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_REBUKE_UNDEAD" />
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_SEPULCHRAL_HUSK" />
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_ARSELU_TEL_QUESS" />
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_UNDEAD_APOTHEOSIS" />
+		</description>
+		<sheet display="false">
+			<description>A tainted caster whose power is granted through the corruption of the soul and perversion of the flesh.</description>
+		</sheet>
+		<rules>
+			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_TAINTED_VITALITY" level="1" />
+			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_CHARNEL_TOUCH" level="1" />
+			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER" level="2" />
+			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_DREAD_NECROMANCER_DREAD_CALLING" level="3" />
+			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_ABILITYSCOREIMPROVEMENT_ELVEN_BAELNORN" level="4"/>
+			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_SEPULCHRAL_HUSK" level="7" />
+			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_ARSELU_TEL_QUESS" level="14" />
+			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_UNDEAD_APOTHEOSIS" level="20" />
+		</rules>
+	</element>
+
+	<element name="Tainted Vitality" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_TAINTED_VITALITY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_TAINTED_VITALITY</requirements>
+		<description>
+			<p>Beginning at 1st level, the vile stain on your soul begins to warp and foritfy your mortal body. You gain resistance to necrotic damage and add your Constitution modifier to your Armor Class when wearing light armors. Additionally, after you make an attack, cast a spell, or use Charnel Touch, Fell Power, or any of your other class abilities on your turn, you have resistance to damage from opportunity attacks made with non-magical weapons.</p>
+			<p class="indent">These changes cause magical healing to affect you differently. When you are the target of magical healing (including potions), you must succeed at a Constitution saving throw at the caster's Spell save DC or only heal half as many hitpoints as the effect would normally heal. Your natural healing is not changed by this ability.</p>
+		</description>
+		<sheet>
+			<description> After you make an attack, cast a spell, or use Charnel Touch, Fell Power, or any other class abilities on your turn, you have resistance to damage from non-magical opportunity attacks.&#13;
+			When receiving magical healing (including potions) make a Constitution saving throw against the caster's Spell DC, taking half healing on a failed save.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" requirements="!ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC"/>
+			<stat name="ac:misc" value="constitution:modifier" equipped="[armor:light]" />
+		</rules>
+	</element>
+
+	<element name="Charnel Touch" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_CHARNEL_TOUCH">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_CHARNEL_TOUCH</requirements>
+		<description>
+			<p>At 1st level, your touch carries the dark taint of the grave that shrouds your soul. You can touch an adjacent creature as an action, forcing the target to make a Constitution saving throw with a DC of 10 + your proficiency bonus + your Constitution modifier. The target takes 1d8 necrotic damage on a failure, and half damage on a success. When a creature has failed the save against this ability twice, it becomes frightened for one minute. Should it fail the save a third time, it is paralyzed til the end of its next turn on this and every subsequent failed saving throw.</p>
+			<p class="indent">This ability gains greater potency when you reach higher levels: 1d10 necrotic damage at 5th level, 1d12 at 7th, 2d8 at 11th, and 2d10 at 17th level. Additionally, starting at 11th level the target gains one level of exhaustion on a failed save. Levels of exhaustion from this ability do not stack.</p>
+		</description>
+		<sheet action="Action">
+			<description> You can touch an adjacent creature, forcing it to make a DC {{charnel-touch:dc}} Constitution saving throw. On a failure, it takes {{charnel-touch:damage:X}}d{{charnel-touch:damage:Y}} necrotic damage, half on success. When it has failed twice, it is frightened for 1 minute. 3 fails (and each fail after) and it is paralyzed until the end of its next turn.</description>
+			<description level="11"> You can touch an adjacent creature, forcing it to make a DC {{charnel-touch:dc}} Constitution saving throw. On a failure, it takes {{charnel-touch:damage:X}}d{{charnel-touch:damage:Y}} necrotic damage, half on success. Additionally, on its first failure, the creature gains 1 level of exhaustion. After 2 failures, it is frightened for 1 minute. 3 failures (and each fail after) and it is paralyzed until the end of its next turn.</description>
+		</sheet>
+		<rules>
+			<stat name="charnel-touch:dc" value="10" />
+			<stat name="charnel-touch:dc" value="proficiency" />
+			<stat name="charnel-touch:dc" value="constitution:modifier" />
+
+			<stat name="charnel-touch:damage:X" value="1" />
+			<stat name="charnel-touch:damage:Y" value="8" />
+			<stat name="charnel-touch:damage:Y" value="2" level="5" />
+			<stat name="charnel-touch:damage:Y" value="2" level="7" />
+			<stat name="charnel-touch:damage:X" value="1" level="11" />
+			<stat name="charnel-touch:damage:Y" value="-4" level="11" />
+			<stat name="charnel-touch:damage:Y" value="2" level="17" />
+		</rules>
+	</element>
+
+	<element name="Fell Power" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_FELL_POWER</requirements>
+		<description>
+			<p>Starting at 2nd level, the dark blemish upon your soul begins to impart sinister power that you can use to create a variety of magical effects. You begin with two such effects: Dark Arcana and Profane Lifeleech. Some class features grant you additional effects, as do some of the features granted by your Dread Calling.</p>
+			<p class="indent">When you use your Fell Power, you choose which effect to create. You can use your Fell Power a number of times per day as indicated on the dread necromancer class table. You must complete a long rest to regain uses of Fell Power.</p>
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_ELVEN_ARCANA" />
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_PROFANE_LIFELEECH" />
+		</description>
+		<sheet usage="{{fell power:count}}/Long Rest">
+			<description>Choose which effect to create:</description>
+		</sheet>
+		<rules>
+			<stat name="fell power:count" value="3" bonus="base" />
+			<stat name="fell power:count" value="4" level="4" bonus="base" />
+			<stat name="fell power:count" value="5" level="6" bonus="base" />
+			<stat name="fell power:count" value="6" level="8" bonus="base" />
+			<stat name="fell power:count" value="7" level="10" bonus="base" />
+			<stat name="fell power:count" value="8" level="13" bonus="base" />
+			<stat name="fell power:count" value="9" level="16" bonus="base" />
+			<stat name="fell power:count" value="10" level="19" bonus="base" />
+			<select type="Class Feature" name="Fell Power: Elven Arcana" supports="Fell Power 1" default="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_ELVEN_ARCANA"/>
+            <select type="Class Feature" name="Fell Power: Profane Leech" supports="Fell Power 2" default="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_PROFANE_LIFELEECH"/>
+			<select type="Archetype Feature" name="Fell Power: Restless Dead" supports="Fell Power 4" default="ID_DMSG_DADN_ARCHETYPE_FEATURE_CORPSECRAFTER_FELL_POWER_RESTLESS_DEAD" level="3" requirements="ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_CORPSECRAFTER,!ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_PLAGUEBEARER,!ID_DMSG_DADN_ARCHETYPE_ELVEN_BAELNORN_NETHERMANCY"/>
+			<select type="Archetype Feature" name="Fell Power: Shadow Magic" supports="Fell Power 9" default="ID_DMSG_DADN_ARCHETYPE_FEATURE_NETHERMANCER_FELL_POWER_SHADOW_MAGIC" level="3" requirements="ID_DMSG_DADN_ARCHETYPE_ELVEN_BAELNORN_NETHERMANCY,!ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_CORPSECRAFTER,!ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_FEARMONGER,!ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_PLAGUEBEARER"/>
+            <select type="Class Feature" name="Fell Power: Rebuke Undead" supports="Fell Power 3" default="ID_DMSG_DADN_CLASS_FEATURE_DREAD_NECROMANCER_FELL_POWER_REBUKE_UNDEAD" level="5"/>
+			<select type="Archetype Feature" name="Fell Power: Shadow Conjuration" supports="Fell Power 10" default="ID_DMSG_DADN_ARCHETYPE_FEATURE_NETHERMANCER_FELL_POWER_SHADOW_CONJURATION" level="10" requirements="ID_DMSG_DADN_ARCHETYPE_ELVEN_BAELNORN_NETHERMANCY,!ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_CORPSECRAFTER,!ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_FEARMONGER,!ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_PLAGUEBEARER"/>
+			<select type="Archetype Feature" name="Fell Power: Dominate Undead" supports="Fell Power 5" default="ID_DMSG_DADN_ARCHETYPE_FEATURE_CORPSECRAFTER_FELL_POWER_DOMINATE_UNDEAD" level="18" requirements="ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_CORPSECRAFTER,!ID_DMSG_DADN_ARCHETYPE_ELVEN_BAELNORN_NETHERMANCY"/>
+		</rules>
+	</element>
+	
+	<element name="Fell Power: Elven Arcana" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_DREAD_NECROMANCER_FELL_POWER_ELVEN_ARCANA">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_ELVEN_ARCANA</requirements>
+		<supports>Fell Power 1</supports>
+		<description>
+			<p>The powerful elven magic that sustains you twists how your Fell Power manifests, allowing you to cast some of the signature spells of the elven art. You use the casting time and other rules for the spell as normal, but you don't need to provide any material components.</p>
+			<p class="indent">You cast these spells at a level determined by your class level, as indicated in the dread necromancer class table. You can use an arcane focus or the holy symbol of any evil god as a spellcasting focus with your spells. You use Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a spell you cast when making an attack roll with one.</p> 
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+			</center>
+			<h5 class="caption">ELVEN ARCANA SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Level</td><td>Spells Known</td></tr>
+				</thead>
+				<tr><td>2nd</td><td>Detect Magic, Tasha's Hideous Laughter, Unseen Servant, Magic Missile</td></tr>
+				<tr><td>6th</td><td>Animal Messenger, Arcane Lock, Crown of Madness, Moonbeam</td></tr>
+				<tr><td>10th</td><td>Bestow Curse, Call Lightning, Dispel Magic, Plant Growth</td></tr>
+				<tr><td>14th</td><td>Confusion, Dominate Beast, Grasping Vine, Polymorph</td></tr>
+				<tr><td>18th</td><td>Awaken, Legend Lore, Mislead, Tree Stride</td></tr>
+			</table>
+		</description>
+		<sheet alt="Elven Arcana">
+			<description>You can cast one of the spells available to you. You use the casting time and other rules for the spell as normal, but you don't need to provide any material components.
+			</description>
+		</sheet>
+		<spellcasting name="Dread Necromancer" ability="Charisma">
+			<list>Dread Necromancer</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+			<select name="Spell Focus (Elven Baelnorn)" type="Proficiency" supports="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS|ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_HOLY_SYMBOL" />
+
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" level="2" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_TASHAS_HIDEOUS_LAUGHTER" level="2" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_UNSEEN_SERVANT" level="2" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MAGIC_MISSILE" level="2" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMAL_MESSENGER" level="6" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_LOCK" level="6" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CROWN_OF_MADNESS" level="6" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MOONBEAM" level="6" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" level="10" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CALL_LIGHTNING" level="10" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="10" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_PLANT_GROWTH" level="10" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONFUSION" level="14" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DOMINATE_BEAST" level="14" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_GRASPING_VINE" level="14" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" level="14" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_AWAKEN" level="18" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LEGEND_LORE" level="18" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MISLEAD" level="18" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_TREE_STRIDE" level="18" spellcasting="Dread Necromancer" prepared="true" />
+		</rules>
+	</element>
+
+	<element name="Fell Power: Profane Lifeleech" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_PROFANE_LIFELEECH">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_FELL_POWER_PROFANE_LIFELEECH</requirements>
+		<supports>Fell Power 2</supports>
+		<description>
+			<p>When you hit a target with your Charnel Touch, you can use a bonus action to draw some of their lifeforce into your own body. Your target takes an additional 2d6 necrotic damage and gains one level of exhaustion, while you heal a number of hitpoints equal to the damage dealt. If your target has a CR greater than your level, they are immune to the effects of this ability. Levels of exhaustion caused by this ability do not stack.</p>
+		</description>
+		<sheet alt="Profane Lifeleech" action="Bonus Action">
+			<description>When you hit with Charnel Touch, you can deal +2d6 necrotic damage and one level of exhaustion (does not stack). You heal HP equal to the damage dealt.&#13;
+			Creatures with a CR greater than {{level:dread necromancer}} are immune to this effect.</description>
+		</sheet>
+	</element>
+
+	<element name="Dread Calling" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_DREAD_NECROMANCER_DREAD_CALLING">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_DREAD_CALLING</requirements>
+		<description>
+			<p>When you reach 3rd level, the magic that sustains you calls you down one of the following paths: Corpsecrafter or Nethermancer. Your path grants you features at 3rd level and again at 6th, 10th, and 14th levels.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Dread Calling" supports="ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_CORPSECRAFTER|ID_DMSG_DADN_ARCHETYPE_ELVEN_BAELNORN_NETHERMANCY" level="3" />
+		</rules>
+	</element>
+
+	<element name="Ability Score Improvement" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_ABILITYSCOREIMPROVEMENT_ELVEN_BAELNORN">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_ABILITY_SCORE_IMPROVEMENT_ELVEN_BAELNORN</requirements>
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Dread Necromancer 4)" supports="Improvement Option,Dread Necromancer,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Dread Necromancer 8)" supports="Improvement Option,Dread Necromancer,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Dread Necromancer 12)" supports="Improvement Option,Dread Necromancer,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Dread Necromancer 16)" supports="Improvement Option,Dread Necromancer,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Dread Necromancer 19)" supports="Improvement Option,Dread Necromancer,19" level="19" />
+		</rules>
+	</element>
+
+	<element name="Fell Power: Rebuke Undead" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_REBUKE_UNDEAD">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_FELL_POWER_REBUKE_UNDEAD</requirements>
+		<supports>Fell Power 3</supports>
+		<description>
+			<p>At 5th level, your Fell Power is strong enough that you now use it to censure the living dead. As an action, you release a burst of negative energy that influences all undead within 60 feet of you. Choose a number of undead creatures whose total CR equals your level or lower and select a single-word command that you speak aloud to the targets. This ability works just like the spell <i>command</i>, with the exception that you can only target undead creatures and can affect multiple creatures at one time. And individual undead creature with a CR greater than half your level cannot be affected by this ability. Intelligent undead have advantage on their save.</p>
+		</description>
+		<sheet alt="Rebuke Undead" action="Action">
+			<description>You speak a single-word command. Choose a number of undead within 60 feet of you whose combined CR is less than or equal to {{level}}, and whose individual CR is no greater than {{level:half}}. Affected creatures make a DC {{rebuke undead:dc}} Wisdom saving throw, and intelligent undead have advantage. Those that fail must immediately follow your command, as if affected by the command spell.</description>
+		</sheet>
+		<rules>
+			<stat name="rebuke undead:dc" value="8" />
+			<stat name="rebuke undead:dc" value="proficiency" />
+			<stat name="rebuke undead:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	
+	<element name="Sepulchral Husk" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_SEPULCHRAL_HUSK">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_SEPULCHRAL_HUSK</requirements>
+		<description>
+			<p>When you reach 7th level, your body begins to show outward sign of the decay that has lain siege to your soul. Mindless undead perceive you as another undead creature and are not hostile towards you unless you or one of your allies attacks. You also gain immunity to necrotic damage and disease, and gain a number of temporary hitpoints equal to your Constitution modifier at the end of each rest.</p>
+			<p class="indent">At 17th level, the infusion of dark power throughout your body allows you to capture harmful necrotic energy and use it to recover from wounds. When you are subject to an effect that deals necrotic damage you instead heal a number of hitpoints equal to the damage the effect would have dealt.</p>
+		</description>
+		<sheet>
+			<description> Mindless undead perceive you as another of their kind, and are not hostile toward you unless you or your allies attack. You are immune to disease and gain {{constitution:modifier}} temporary HP at the end of each rest.</description>
+			<description level="17"> Mindless undead perceive you as another of their kind, and are not hostile toward you unless you or your allies attack. You are immune to disease and gain {{constitution:modifier}} temporary HP at the end of each rest. When you would take necrotic damage, instead heal HP equal to the damage you would have taken.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC" />
+		</rules>
+	</element>
+
+	<element name="Arselu'Tel'Quess" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_ARSELU_TEL_QUESS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_ARESELU_TEL_QUESS</requirements>
+		<description>
+			<p>Sometimes called High Magic by outsiders, Arselu'Tel'Quess is the collective body of ancient and well-guarded arcane lore sustained by the elven people throughout generations. When you reach 14th level, you learn to use the magic that sustains you to telepathically reach out to other elves to join them with you to create the legendary artifices of the elves. The other elves must willingly join with you and have the ability to cast a spell of 3rd level or greater.</p>
+			<p class="indent">Doing so is not without risks. The great magic of the elves requires not only cooperation, but sacrifice. Some of the cost can be shared by those working with you to carry out the magic, but the brunt of it falls on you. Each effect details how many participants are required and what sacrifices need to be made to sustain the arcane power you weave. The rituals of Arselu'Tel'Quess require an hour of preparation and 1,000 gold pieces of rare incense and arcane reagents.</p>
+			<p class="indent">
+			<span class="feature">Adoessuor.</span>Requiring the aid of four other elves, you can put a willing target into a catatonic sleep. While in this state the target doesn't age, nor do they require food or drink. You can sustain a creature in such a manner for up to two years for each elf that aids you in casting this ritual. While the effect lasts, your hit dice total is reduced by 1. You, or other participants, can sacrifice additional hit dice to extend the duration by 1 year for each dice contributed.<br />
+			<span class="feature">Daoin'Teague'Feer.</span>As part of this ritual cleansing you can cast <i>greater restoration</i>, <i>lesser restoration</i>, <i>raise dead</i> or <i>remove curse</i> upon a target of your choice. You need one additional elven participant for each level of the spell you want to cast. You permanently lose one of your hit dice each time you use this ability.<br />
+			<span class="feature">Elaorman.</span>With the aid of at least one other elf, you can duplicate the effects of <i>Leomund’s tiny hut</i>. For each additional participant, you may extend the duration of the hut by 24 hours. While the hut exists you and any other participants cannot spend healing surges and your maximum hit point totals are reduced by 10 points.<br />
+			<span class="feature">Ghaatiil.</span>You create a portal that starts at your location and has its end point at the location of a second elven participant in this ritual. A third elf must also participate in this ritual from a location that is half the distance between the starting and ending points of the portal you create. You can incorporate additional casters in this ritual, spacing them evenly across the distance the portal is to cover. The portal permanently links the two locations (though your DM may determine that there are conditions that could disrupt or destroy one or the other gateways to the portal). Creating the portal requires the sacrifice of 1 hitpoint for every mile of distance the portal spans. You must contribute at least 1 more hitpoint than any other participant and any hitpoints you sacrifice are deducted from your total hitpoints and cannot be recovered unless you ritually dismantle the portal (other participants recover their hitpoints as normal).<br />
+			<span class="feature">N'Maernthor.</span>Using this ritual, you can conceal a location from the perception of non-elves. For every elf partipating in the ritual you can affect one square mile of terrain. At the conclusion of the ritual, non-elves will unconsciously wander around the affected area and fail to notice the warded area (or even that they have unknowingly passed around it). You can sustain the effect for as long as you like, but must expend a hitdie for each day that passes and you are unable to recover any hit dice expended for this ritual until its effects are dispelled.<br />
+			<span class="feature">Vuorl'Kyshuf.</span>Choose one elf that has participated in any ritual of Arselu'Tel'Quess. You can expend a hitdie to establish a telepathic link with the target as long as they are on the same plane as you. The link can be sustained for up to an hour, and if you have a mirror, vessel of water, or other similar clear and reflective surface, you can choose to also see an image of your target. The target of this ritual can choose to end any of its effects at any time if they wish.<br />
+			</p>
+			<h5 class="caption">VARIANT: CREATE MYTHAL</h5>
+			<p>High Magic is instrumental in the creation of powerful sustained effects of magic known as Mythals. Should your Dungeon Master allow it, your knowledge of the 
+			Arselu'Tel'Quess allows you to cooperate with other elven mages to create a Mythal.</p>
+			<p class="indent">Creating a Mythal requires the sacrifice of an elven life and no fewer than twelve participating elves. For each participant, you can select a spell to
+			contribute to the Mythal. The spell must either affect an area or a single, specific creature. The Mythal covers one square mile for each hitdie that is contributed during
+			the ritual. No elf may contribute more hitdice than you. Any elf within the area of the Mythal gains the benefits of the spells from which it was created. At the time of its
+			creation, you can also imbue the Mythal with the effects of N'Maernthor.</p>
+		</description>
+		<sheet action="Ritual" usage="1 hour">
+			<description>Using 1,000gp of rare incense and arcane reagents, you can perform an elven ritual. The sacrifice required is unique depending on the desired effect. You gain the benefits of one boon from the Arselu'Tel'Quess list.</description>
+		</sheet>
+	</element>
+
+	<element name="Undead Apotheosis" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_UNDEAD_APOTHEOSIS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_UNDEAD_APOTHEOSIS</requirements>
+		<description>
+			<p>At 20th level, the nefarious power that fills you finally completes your transformation into an undead Baelnorn. Your mortal form can no longer contain the twisted 
+			and withered thing your soul has become. Ritually extracted from your body, preserved in a specially constructed vessel, the wretched remains of your animus fuels your 
+			mortal form and rebuilds it should it ever be destroyed.</p>
+			<h5 class="caption">CREATE PHYLACTERY</h5>
+			<p>With your soul no longer fit to reside inside your body, you craft a magical artifact that contains it. If this object, also called a phylactery, is intact, your soul 
+			will form a new body for your consciousness when you die. It takes 1d6 days for your new body to form and it appears in a space adjacent to your phylactery. If your
+			phylactery is ever destroyed, you can spend 48 hours and 10,000 gold pieces to rebuild it. Should you ever perish while your phylactery is broken, your death is permanent
+			and cannot be undone by anything short of the intervention of some dark god or unimaginable dread power.</p>
+			<p class="indent">Additionally, when the phylactery is in your possession you can cast the spell <i>Imprisonment</i> without expending a spell slot or using your Fell
+			Power. Any creature imprisoned in this way for a duration of 24 hours dies and their soul is devoured to sustain your body. A creature that dies from this ability can 
+			only be raised by a <i>Wish</i> spell. You must complete a long rest before you can cast the spell again.</p>
+			<p class="indent">To sustain your undead form, you must use your phylactery to consume a soul once each week. Failing to do so means that you cannot regain hitpoints 
+			through any means other than a <i>Wish</i> spell, you cannot use your Fell Power, and your body does not reanimate should you die.</p>
+			<h5 class="caption">LICHDOM</h5>
+			<p>You gain the Undead type. You no longer need to eat or sleep, though you must still rest for an 8 hour period to gain the benefits of a long rest. You are also immune 
+			to disease, poison, and sleep effects. You are vulnerable to radiant damage, but have advantage on saving throws made to resist any effects that specifically target 
+			undead creatures. </p>
+			<h5 class="caption">HIDDEN SANCTUM</h5>
+			<p>To protect your phylactery, you keep it hidden within a secret elven catacomb or other remote secluded elven stronghold. If your phylactery has been within the same building for 
+			at least 24 hours, your vile presence permeates the location and you gain lair actions as a lich (see the Lich's entry in the Monster Manual for a list of available lair 
+			actions.)</p>
+			<h5 class="caption">OCCULT SECRETS</h5>
+			<p>The process of removing your soul from your body reveals many magical secrets to you. You gain two 7th level spell slots and one each level of 8th and 9th level. 
+			Additionally, you learn your choice of three 7th level spells, two 8th level spells, and two 9th level spells selected from the Cleric or Wizard spell list. At least half 
+			of the spells you choose must be Necromancy spells. You use your spell slots to cast these spells as a Wizard, and you can use these spell slots to cast your Elven Arcana 
+			spells. Charisma is your spellcasting ability for these spells and the DC of any spells you cast with this ability is equal to 8 + your level + your Charisma modifier.</p>
+		</description>
+		<sheet>
+			<description>You construct a phylactery, which, while intact, will reanimate your body in an adjacent space 1d6 days after you die. While you possess your phylactery, you can cast Imprisonment without using a spell slot or your Fell Power. A creature imprisoned for 24 hours dies and feeds your soul. You must feed your phylactery in this way once each week or you cannot regain HP (except a Wish spell), use Fell Power, and you will not reanimate if you die. If your phylactery is destroyed, it costs 10,000gp and 48 hours to rebuild. Until it is rebuilt, you will not reanimate if you die. To protect your phylactery, you hide it in a secret lair. If it remains in this lair for at least 24 hours, you gain lair actions as a lich.&#13;
+			You gain two 7th level, one 8th and one 9th level spell slots, and learn three 7th level, two 8th level and twq 9th level spells, at least half of which much be Necromancy spells. You can use these slots to cast your Dark Arcana spells.</description>
+		</sheet>
+		<spellcasting name="Dread Necromancer" extend="true">
+			<extend>Cleric</extend>
+			<extend>Wizard</extend>
+		</spellcasting>
+		<rules>
+			<grant type="Racial Trait" id="ID_DMSG_DADN_RACIAL_TRAIT_LICHDOM" />
+
+			<stat name="dread necromancer:spellcasting:slots:7" value="2" level="20" />
+			<stat name="dread necromancer:spellcasting:slots:8" value="1" level="20" />
+			<stat name="dread necromancer:spellcasting:slots:9" value="1" level="20" />
+			
+			<select type="Spell" name="Occult Secrets (Dread Necromancer)" supports="$(spellcasting:list), 7" level="20" number="3" spellcasting="Dread Necromancer" />
+			<select type="Spell" name="Occult Secrets (Dread Necromancer)" supports="$(spellcasting:list), 8" level="20" number="2" spellcasting="Dread Necromancer" />
+			<select type="Spell" name="Occult Secrets (Dread Necromancer)" supports="$(spellcasting:list), 9" level="20" number="2" spellcasting="Dread Necromancer" />
+		</rules>
+	</element>
+
+	<element name="Lichdom" type="Racial Trait" source="Dread Necromancer" id="ID_DMSG_DADN_RACIAL_TRAIT_LICHDOM">
+		<description></description>
+		<sheet alt="Undead">
+			<p>You no longer need to eat or sleep, but must still rest for an 8 hour period to gain the benefits of a long rest. You are also immune to disease, poison, and sleep effects. You are vulnerable to radiant damage, but have advantage on saving throws made to resist any effects that specifically target undead creatures.</p>
+		</sheet>
+	</element>
+</elements>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Dread Necromancer</name>
+		<description>A new class with a dark taint that grants power through the corruption of the soul and perversion of the flesh.</description>
+		<author url="https://www.dmsguild.com/product/173065/Dread-Necromancer">David Adams</author>
+		<update version="0.1">
+			<file name="dread-necromancer.index" url="https://raw.githubusercontent.com/Saerbhreathach/DADN-aurora/main/dread-necromancer.index" />
+		</update>
+	</info>
+	<files>	
+		<file name="source.xml" url="https://raw.githubusercontent.com/Saerbhreathach/DADN-aurora/main/dread-necromancer/source.xml" />
+		
+		<!-- class -->
+		<file name="class-dread-necromancer.xml" url="https://raw.githubusercontent.com/Saerbhreathach/DADN-aurora/main/dread-necromancer/class-dread-necromancer.xml" />
+		<file name="dread-necromancer-base-variant.xml" url="https://raw.githubusercontent.com/Saerbhreathach/DADN-aurora/main/dread-necromancer/dread-necromancer-base-variant.xml" />
+		<file name="dread-necromancer-mummification-variant.xml" url="https://raw.githubusercontent.com/Saerbhreathach/DADN-aurora/main/dread-necromancer/dread-necromancer-mummification-variant.xml" />
+		<file name="dread-necromancer-baelnorn-variant.xml" url="https://raw.githubusercontent.com/Saerbhreathach/DADN-aurora/main/dread-necromancer/dread-necromancer-baelnorn-variant.xml" />
+
+		<!-- archetypes -->
+		<file name="dread-necromancer-corpsecrafter.xml" url="https://raw.githubusercontent.com/Saerbhreathach/DNM-aurora/main/dread-necromancer/dread-necromancer-corpsecrafter.xml" />
+		<file name="dread-necromancer-fearmonger.xml" url="https://raw.githubusercontent.com/Saerbhreathach/DNM-aurora/main/dread-necromancer/dread-necromancer-fearmonger.xml" />
+		<file name="dread-necromancer-plaguebearer.xml" url="https://raw.githubusercontent.com/Saerbhreathach/DNM-aurora/main/dread-necromancer/dread-necromancer-plaguebearer.xml" />
+		<file name="dread-necromancer-nethermancer.xml" url="https://raw.githubusercontent.com/Saerbhreathach/DNM-aurora/main/dread-necromancer/dread-necromancer-nethermancer.xml" />
+
+		<!-- misc -->
+		<file name="spells.xml" url="https://raw.githubusercontent.com/Saerbhreathach/DADN-aurora/main/dread-necromancer/spells.xml" />
+	</files>
+</index>
