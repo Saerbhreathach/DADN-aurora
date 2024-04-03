@@ -170,7 +170,7 @@
 				<tr><td>6th</td><td>Blindness/Deafness, Darkness, Dust Devil<sup>XGTE</sup>, Silence</td></tr>
 				<tr><td>10th</td><td>Bestow Curse, Blinding Smite, Tongues, Wall of Sand</td></tr>
 				<tr><td>14th</td><td>Blight, Confusion, Death Ward, Scrying</td></tr>
-				<tr><td>18th</td><td>Contagion, Commune, Destructive Smite, Hallow</td></tr>
+				<tr><td>18th</td><td>Contagion, Commune, Destructive Wave, Hallow</td></tr>
 			</table>
 		</description>
 		<sheet alt="Vile Sacrament">
@@ -202,7 +202,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="14" spellcasting="Dread Necromancer" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_CONTAGION" level="18" spellcasting="Dread Necromancer" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE" level="18" spellcasting="Dread Necromancer" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_SMITE" level="18" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE" level="18" spellcasting="Dread Necromancer" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_HALLOW" level="18" spellcasting="Dread Necromancer" prepared="true" />
 		</rules>
 	</element>
