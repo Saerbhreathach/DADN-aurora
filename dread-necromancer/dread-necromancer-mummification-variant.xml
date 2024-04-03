@@ -193,7 +193,7 @@
 			<grant type="Spell" id="ID_XGTE_SPELL_DUST_DEVIL" level="6" spellcasting="Dread Necromancer" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_SILENCE" level="6" spellcasting="Dread Necromancer" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" level="10" spellcasting="Dread Necromancer" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_BLINDING_SMIT" level="10" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLINDING_SMITE" level="10" spellcasting="Dread Necromancer" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_TONGUES" level="10" spellcasting="Dread Necromancer" prepared="true" />
 			<grant type="Spell" id="ID_XGTE_SPELL_WALL_OF_SAND" level="10" spellcasting="Dread Necromancer" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_BLIGHT" level="14" spellcasting="Dread Necromancer" prepared="true" />
@@ -286,7 +286,7 @@
 			<p class="indent">You can sacrifice a creature with a CR equal to at least half your Dread Necromancer level to petition divine intervention, as the Cleric ability of the same name.</p>
 		</description>
 		<sheet action="Ritual" usage="2 hours">
-			<description>Using 5,000gp of rare implements and material components, you can perform a ritual sacrifice. You use a living victim (willing or not) to power the ritual, and they must remain incapacitated or restrained for the duration, or the ritual must restart anew. At the end of the ritual, the victim dies, and can only be revived by a Wish spell. You gain the benefits of one boon from the Ritual Sacrifice list. You cannot have more than one boon at a time within 24 hours.</description>
+			<description>Using 5,000gp of rare implements and material components, you can perform a ritual sacrifice. You use a living victim (willing or not) to power the ritual, and they must remain incapacitated or restrained for the duration, or the ritual must restart anew. At the end of the ritual, the victim dies, and can only be revived by a Wish spell. You gain the benefits of one boon from the Grim Atonement list. You cannot have more than one boon at a time within 24 hours. See Card for additional description.</description>
 		</sheet>
 	</element>
 
