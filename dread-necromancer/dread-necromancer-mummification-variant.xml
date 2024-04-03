@@ -272,7 +272,7 @@
 		<sheet display="false" />
 	</element>
 
-	<element name="Grim Atonement" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_RITUAL_MUMMIFICATION_GRIM_ATTONEMENT">
+	<element name="Grim Atonement" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_RITUAL_MUMMIFICATION_GRIM_ATONEMENT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RITUAL_MUMMIFICATION_GRIM_ATONEMENT</requirements>
 		<description>
 			<p>Starting at 14th level, you learn how to offer your sacrificial victims as recompense for the divine powers you have stolen. Performing a sacrifice requires 2 hours of preparation, 5,000 gold pieces of rare implements and material components, as well as a living victim that must be either incapacitated or restrained for the duration of the ritual. Your victim need not be willing, but should they break free of their bonds or escape you must start the sacrifice performance over from the beginning.</p>
