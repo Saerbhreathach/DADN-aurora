@@ -148,7 +148,7 @@
 		</rules>
 	</element>
 	
-	<element name="Fell Power: Elven Arcana" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_DREAD_NECROMANCER_FELL_POWER_ELVEN_ARCANA">
+	<element name="Fell Power: Elven Arcana" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_ELVEN_ARCANA">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_ELVEN_ARCANA</requirements>
 		<supports>Fell Power 11</supports>
 		<description>
