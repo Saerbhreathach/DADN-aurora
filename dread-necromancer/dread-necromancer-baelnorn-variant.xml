@@ -317,7 +317,7 @@
 			<p class="indent">To sustain your undead form, you must use your phylactery to consume a soul once each week. Failing to do so means that you cannot regain hitpoints 
 			through any means other than a <i>Wish</i> spell, you cannot use your Fell Power, and your body does not reanimate should you die.</p>
 			<h5 class="caption">LICHDOM</h5>
-			<p>You gain the Undead type. You no longer need to eat or sleep, though you must still rest for an 8 hour period to gain the benefits of a long rest. You are also immune 
+			<p>You gain the Undead type. You no longer need to eat or sleep, though you must still rest for a 4 hour period to gain the benefits of a long rest. You are also immune 
 			to disease, poison, and sleep effects. You are vulnerable to radiant damage, but have advantage on saving throws made to resist any effects that specifically target 
 			undead creatures. </p>
 			<h5 class="caption">HIDDEN SANCTUM</h5>
@@ -354,7 +354,7 @@
 	<element name="Lichdom" type="Racial Trait" source="Dread Necromancer" id="ID_DMSG_DADN_RACIAL_TRAIT_LICHDOM">
 		<description></description>
 		<sheet alt="Undead">
-			<p>You no longer need to eat or sleep, but must still rest for an 8 hour period to gain the benefits of a long rest. You are also immune to disease, poison, and sleep effects. You are vulnerable to radiant damage, but have advantage on saving throws made to resist any effects that specifically target undead creatures.</p>
+			<p>You no longer need to eat or sleep, but must still rest for a 4 hour period to gain the benefits of a long rest. You are also immune to disease, poison, and sleep effects. You are vulnerable to radiant damage, but have advantage on saving throws made to resist any effects that specifically target undead creatures.</p>
 		</sheet>
 	</element>
 </elements>
