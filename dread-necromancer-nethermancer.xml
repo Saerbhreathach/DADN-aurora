@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<description>The Nethermancer, an Elven Baelnorn subclass for the Dread Necromancer by David Adams, from DM's Guild.</description>
+		<author url="https://www.dmsguild.com/product/173065/Dread-Necromancer">David Adams</author>
+		<update version="1.0">
+			<file name="dread-necromancer-nethermancer.xml" url="https://raw.githubusercontent.com/Saerbhreathach/DNM-aurora/main/dread-necromancer/dread-necromancer-nethermancer.xml" />
+		</update>
+	</info>
+
+	<element name="Nethermancer" type="Archetype" source="Dread Necromancer" id="ID_DMSG_DADN_ARCHETYPE_ELVEN_BAELNORN_NETHERMANCER">
+		<supports>ID_DMSG_DADN_CLASS_FEATURE_DREAD_NECROMANCER_ELVEN_BAELNORN</supports>
+		<description>
+			<p>Some Baelnorn tread the path of the Corpsecrafter, but owing to their relative safety from the dark taint of dread necromancy, many more instead blend the magic of the elven people that sustains their mortal form with the power of shadow that blights their soul. These Nethermancers tap the places where the Weave casts shadows and create mighty spells from the raw essence of shadow-stuff.</p>
+			<p>Most of the magic known to mortals comes from their knowledge of how to manipulate the Weave, a pervasive arcane force that flows through and unifies everything. There are dark spaces between the strands of the Weave, areas of cold and gloom where a sister power to the Weave dwells. It is the study of this ephemeral shadow of magic that drives your growing power, but not without risk: the insubstantial foundation your spells are built upon is but a figment that holds no power over those that can perceive its illusory nature.</p>
+			<div element="ID_DMSG_DADN_ARCHETYPE_FEATURE_NETHERMANCER_FELL_POWER_SHADOW_MAGIC" />
+			<div element="ID_DMSG_DADN_ARCHETYPE_FEATURE_NETHERMANCER_FELL_POWER_SHADOW_CONJURATION" />
+		</description>
+		<sheet display="false"/>
+	</element>
+
+	<element name="Fell Power: Shadow Magic" type="Archetype Feature" source="Dread Necromancer" id="ID_DMSG_DADN_ARCHETYPE_FEATURE_NETHERMANCER_FELL_POWER_SHADOW_MAGIC">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_NETHERMANCER_FELL_POWER_SHADOW_MAGIC</requirements>
+		<supports>Fell Power 9</supports>
+		<description>
+			<p>Starting at 3rd level, you can turn shadows into spells. Choose an illusion or evocation spell of 1st level or lower from the Wizard or Druid spell list. You use
+			the casting time of the selected spell and resolve the spell per its description. If the spell deals damage, your target gets to make a Wisdom saving throw to disbelieve
+			the effect of your magic. On a success, the target takes no such damage from the spell.</p>
+			<p class="indent">Once you reach 6th level, you can choose any qualifying spell of 3rd level or lower. At 18th level you can cast spells of 5th level or lower.</p>
+		</description>
+		<sheet alt="Shadow Magic">
+			<description>You can cast spells using the very shadows between the Weave. You use the casting time of the selected spell and resolve the spell per its description. If the spell deals damage, your target makes a DC {{shadow magic:dc}} Wisdom saving throw, taking no damage on a success.</description>
+		</sheet>
+		<rules>
+			<stat name="shadow magic:dc" value="8"/>
+			<stat name="shadow magic:dc" value="proficiency"/>
+			<stat name="shadow magic:dc" value="charisma:modifier"/>
+
+			<select type="Spell" name="Spellcasting (Shadow Magic)" supports="(Wizard||Druid),(Evocation||Illusion),(0||1)" level="3" number="1" spellcasting="Dread Necromancer" replace="true"/>
+			<select type="Spell" name="Spellcasting (Shadow Magic)" supports="(Wizard||Druid),(Evocation||Illusion),(0||1||2||3)" level="6" number="1" spellcasting="Dread Necromancer" replace="true"/>
+			<select type="Spell" name="Spellcasting (Shadow Magic)" supports="(Wizard||Druid),(Evocation||Illusion),(0||1||2||3||4||5)" level="18" number="1" spellcasting="Dread Necromancer" replace="true"/>
+		</rules>
+	</element>
+
+	<element name="Fell Power: Shadow Conjuration" type="Archetype Feature" source="Dread Necromancer" id="ID_DMSG_DADN_ARCHETYPE_FEATURE_NETHERMANCER_FELL_POWER_SHADOW_CONJURATION">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_NETHERMANCER_FELL_POWER_SHADOW_CONJURATION</requirements>
+		<supports>Fell Power 10</supports>
+		<description>
+			<p>When you reach 10th level, you can use your Fell Power to give form and substance to shadow. You can cast <i>conjure animals</i>, but the creatures you summon are created wholly out of shadow. Any creature that sees your creations can make a Wisdom saving throw to recognise the umbral nature of these animals. On a success, the creature cannot be affected by your conjured animal.</p>
+			<p class="indent">Upon reaching 18th level, you can use your Fell Power to cast <i>conjure woodland beings</i> in the same fashion instead.</p>
+		</description>
+		<sheet alt="Shadow Conjuration">
+			<description>You can cast Conjure Animals, but the creatures you summon are created wholly out of shadow. A creature that sees your creations can make a DC {{shadow conjuration:dc}} Wisdom saving throw. On a success your conjured animals cannot affect the creature.</description>
+			<description level="18">You can cast Conjure Animals and Conjure Woodland Beings, but the creatures you summon are created wholly out of shadow. A creature that sees your creations can make a DC {{shadow conjuration:dc}} Wisdom saving throw. On a success your conjured creatures cannot affect them.</description>
+		</sheet>
+		<rules>
+			<stat name="shadow conjuration:dc" value="8"/>
+			<stat name="shadow conjuration:dc" value="proficiency"/>
+			<stat name="shadow conjuration:dc" value="charisma:modifier"/>
+
+			<grant type="Spell" id="ID_PHB_SPELL_CONJURE_ANIMALS" spellcasting="Dread Necromancer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONJURE_WOODLAND_BEINGS" spellcasting="Dread Necromancer" prepared="true" level="18"/>
+		</rules>
+	</element>
+</elements>
