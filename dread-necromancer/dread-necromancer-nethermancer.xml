@@ -9,7 +9,7 @@
 	</info>
 
 	<element name="Nethermancer" type="Archetype" source="Dread Necromancer" id="ID_DMSG_DADN_ARCHETYPE_ELVEN_BAELNORN_NETHERMANCER">
-		<supports>Dread Calling</supports>
+		<supports>ID_DMSG_DADN_CLASS_FEATURE_DREAD_NECROMANCER_ELVEN_BAELNORN</supports>
 		<description>
 			<p>Some Baelnorn tread the path of the Corpsecrafter, but owing to their relative safety from the dark taint of dread necromancy, many more instead blend the magic of the elven people that sustains their mortal form with the power of shadow that blights their soul. These Nethermancers tap the places where the Weave casts shadows and create mighty spells from the raw essence of shadow-stuff.</p>
 			<p>Most of the magic known to mortals comes from their knowledge of how to manipulate the Weave, a pervasive arcane force that flows through and unifies everything. There are dark spaces between the strands of the Weave, areas of cold and gloom where a sister power to the Weave dwells. It is the study of this ephemeral shadow of magic that drives your growing power, but not without risk: the insubstantial foundation your spells are built upon is but a figment that holds no power over those that can perceive its illusory nature.</p>
