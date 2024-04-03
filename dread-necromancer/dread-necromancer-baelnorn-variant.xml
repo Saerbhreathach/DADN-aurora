@@ -223,7 +223,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Archetype" name="Dread Calling" supports="ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_CORPSECRAFTER|ID_DMSG_DADN_ARCHETYPE_ELVEN_BAELNORN_NETHERMANCY" level="3" />
+			<select type="Archetype" name="Dread Calling" supports="ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_CORPSECRAFTER|ID_DMSG_DADN_ARCHETYPE_ELVEN_BAELNORN_NETHERMANCER" level="3" />
 		</rules>
 	</element>
 
