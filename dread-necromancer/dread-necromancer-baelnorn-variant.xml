@@ -55,7 +55,7 @@
 			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_ELVEN_ARCANA" />
 			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_PROFANE_LIFELEECH" />
 			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_DREAD_CALLING" />
-			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_ABILITYSCOREIMPROVEMENT_DREAD_NECROMANCER" />
+			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_ABILITYSCOREIMPROVEMENT_ELVEN_BAELNORN" />
 			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_REBUKE_UNDEAD" />
 			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_SEPULCHRAL_HUSK" />
 			<div element="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_ARSELU_TEL_QUESS" />
@@ -68,7 +68,7 @@
 			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_TAINTED_VITALITY" level="1" />
 			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_CHARNEL_TOUCH" level="1" />
 			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER" level="2" />
-			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_DREAD_NECROMANCER_DREAD_CALLING" level="3" />
+			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_DREAD_CALLING" level="3" />
 			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_ABILITYSCOREIMPROVEMENT_ELVEN_BAELNORN" level="4"/>
 			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_SEPULCHRAL_HUSK" level="7" />
 			<grant type="Class Feature" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_ARSELU_TEL_QUESS" level="14" />
@@ -138,7 +138,7 @@
 			<stat name="fell power:count" value="8" level="13" bonus="base" />
 			<stat name="fell power:count" value="9" level="16" bonus="base" />
 			<stat name="fell power:count" value="10" level="19" bonus="base" />
-			<select type="Class Feature" name="Fell Power: Elven Arcana" supports="Fell Power 1" default="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_ELVEN_ARCANA"/>
+			<select type="Class Feature" name="Fell Power: Elven Arcana" supports="Fell Power 11" default="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_ELVEN_ARCANA"/>
             <select type="Class Feature" name="Fell Power: Profane Leech" supports="Fell Power 2" default="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_FELL_POWER_PROFANE_LIFELEECH"/>
 			<select type="Archetype Feature" name="Fell Power: Restless Dead" supports="Fell Power 4" default="ID_DMSG_DADN_ARCHETYPE_FEATURE_CORPSECRAFTER_FELL_POWER_RESTLESS_DEAD" level="3" requirements="ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_CORPSECRAFTER,!ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_PLAGUEBEARER,!ID_DMSG_DADN_ARCHETYPE_ELVEN_BAELNORN_NETHERMANCY"/>
 			<select type="Archetype Feature" name="Fell Power: Shadow Magic" supports="Fell Power 9" default="ID_DMSG_DADN_ARCHETYPE_FEATURE_NETHERMANCER_FELL_POWER_SHADOW_MAGIC" level="3" requirements="ID_DMSG_DADN_ARCHETYPE_ELVEN_BAELNORN_NETHERMANCY,!ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_CORPSECRAFTER,!ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_FEARMONGER,!ID_DMSG_DADN_ARCHETYPE_DREAD_NECROMANCER_PLAGUEBEARER"/>
@@ -150,7 +150,7 @@
 	
 	<element name="Fell Power: Elven Arcana" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_DREAD_NECROMANCER_FELL_POWER_ELVEN_ARCANA">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_ELVEN_ARCANA</requirements>
-		<supports>Fell Power 1</supports>
+		<supports>Fell Power 11</supports>
 		<description>
 			<p>The powerful elven magic that sustains you twists how your Fell Power manifests, allowing you to cast some of the signature spells of the elven art. You use the casting time and other rules for the spell as normal, but you don't need to provide any material components.</p>
 			<p class="indent">You cast these spells at a level determined by your class level, as indicated in the dread necromancer class table. You can use an arcane focus or the holy symbol of any evil god as a spellcasting focus with your spells. You use Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a spell you cast when making an attack roll with one.</p> 
@@ -216,7 +216,7 @@
 		</sheet>
 	</element>
 
-	<element name="Dread Calling" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_DREAD_NECROMANCER_DREAD_CALLING">
+	<element name="Dread Calling" type="Class Feature" source="Dread Necromancer" id="ID_DMSG_DADN_CLASS_FEATURE_ELVEN_BAELNORN_DREAD_CALLING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ELVEN_BAELNORN_DREAD_CALLING</requirements>
 		<description>
 			<p>When you reach 3rd level, the magic that sustains you calls you down one of the following paths: Corpsecrafter or Nethermancer. Your path grants you features at 3rd level and again at 6th, 10th, and 14th levels.</p>
